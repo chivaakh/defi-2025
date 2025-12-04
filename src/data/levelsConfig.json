@@ -1,0 +1,330 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "Découvrir le problème",
+      "slug": "decouvrir",
+      "icon": "🔍",
+      "color": "#FF6B6B",
+      "duration": "5-10 min",
+      
+      "intro": {
+        "title": "Mission 1 : Audit du lycée",
+        "description": "Les Big Tech ont infiltré le lycée. Ta mission : identifier tous les problèmes créés par leur domination numérique.",
+        "objective": "Trouve les 4 problèmes cachés dans le lycée"
+      },
+      
+      "problems": [
+        {
+          "id": "licenses",
+          "title": "Licences coûteuses",
+          "location": "Salle informatique",
+          "icon": "💰",
+          "description": "Le lycée paie 500€ par an et par PC pour les licences Windows et Office.",
+          "impact": "Budget limité pour autres projets pédagogiques",
+          "solution": "Linux et LibreOffice sont gratuits !"
+        },
+        {
+          "id": "obsolescence",
+          "title": "Obsolescence programmée",
+          "location": "Local technique",
+          "icon": "🗑️",
+          "description": "50 PC fonctionnels jetés car 'incompatibles' avec Windows 11.",
+          "impact": "Gaspillage et pollution numérique",
+          "solution": "Linux fonctionne sur du vieux matériel"
+        },
+        {
+          "id": "dependance",
+          "title": "Dépendance technologique",
+          "location": "Bureau administratif",
+          "icon": "🔗",
+          "description": "Tout le travail bloqué lors des pannes de serveurs Microsoft.",
+          "impact": "Perte de productivité et autonomie",
+          "solution": "Solutions locales et décentralisées"
+        },
+        {
+          "id": "donnees",
+          "title": "Données hors UE",
+          "location": "CDI",
+          "icon": "🌍",
+          "description": "Toutes les données des élèves stockées aux USA (Google Drive, Office 365).",
+          "impact": "Non-conformité RGPD et risques sécurité",
+          "solution": "Hébergement en France avec Nextcloud"
+        }
+      ],
+      
+      "completion": {
+        "message": "Bravo ! Tu as identifié tous les problèmes. Le lycée réalise maintenant l'ampleur de sa dépendance aux Big Tech.",
+        "nextLevel": "Il est temps de préparer la solution..."
+      }
+    },
+    
+    {
+      "id": 2,
+      "name": "Préparer la solution",
+      "slug": "preparer",
+      "icon": "🔧",
+      "color": "#4ECDC4",
+      "duration": "10-15 min",
+      
+      "intro": {
+        "title": "Mission 2 : Ressusciter un PC",
+        "description": "Montre que le vieux matériel peut revivre avec Linux et des logiciels libres !",
+        "objective": "Assemble un PC fonctionnel avec les bons composants"
+      },
+      
+      "components": [
+        {
+          "id": "pc-case",
+          "name": "Boîtier PC",
+          "category": "hardware",
+          "required": true,
+          "order": 1,
+          "description": "Un vieux PC de 2015, jeté car 'trop lent'"
+        },
+        {
+          "id": "motherboard",
+          "name": "Carte mère",
+          "category": "hardware",
+          "required": true,
+          "order": 2
+        },
+        {
+          "id": "cpu",
+          "name": "Processeur Intel i5",
+          "category": "hardware",
+          "required": true,
+          "order": 3
+        },
+        {
+          "id": "ram",
+          "name": "4 GB RAM",
+          "category": "hardware",
+          "required": true,
+          "order": 4
+        },
+        {
+          "id": "disk",
+          "name": "Disque dur 500 GB",
+          "category": "hardware",
+          "required": true,
+          "order": 5
+        },
+        {
+          "id": "linux-os",
+          "name": "Ubuntu Linux",
+          "category": "software",
+          "required": true,
+          "order": 6,
+          "description": "Système d'exploitation libre et gratuit"
+        },
+        {
+          "id": "libreoffice",
+          "name": "LibreOffice",
+          "category": "software",
+          "required": true,
+          "order": 7,
+          "description": "Suite bureautique complète et gratuite"
+        },
+        {
+          "id": "firefox",
+          "name": "Firefox",
+          "category": "software",
+          "required": true,
+          "order": 8,
+          "description": "Navigateur respectueux de la vie privée"
+        }
+      ],
+      
+      "wrongComponents": [
+        {
+          "id": "windows",
+          "name": "Windows 11",
+          "category": "software",
+          "error": "Trop lourd pour ce PC !"
+        },
+        {
+          "id": "office",
+          "name": "Microsoft Office",
+          "category": "software",
+          "error": "Licence trop chère : 120€/an"
+        }
+      ],
+      
+      "completion": {
+        "message": "Incroyable ! Le PC fonctionne parfaitement. Tu viens de prouver qu'on peut lutter contre l'obsolescence programmée.",
+        "quote": "Ton ordi n'est pas vieux, il est juste prisonnier.",
+        "nextLevel": "Maintenant, convainc les autres de rejoindre NIRD..."
+      }
+    },
+    
+    {
+      "id": 3,
+      "name": "Convaincre",
+      "slug": "convaincre",
+      "icon": "💬",
+      "color": "#FFE66D",
+      "duration": "10-15 min",
+      
+      "intro": {
+        "title": "Mission 3 : Rallier l'équipe",
+        "description": "Convaincs le prof, l'élève et l'intendant de rejoindre le mouvement NIRD.",
+        "objective": "Argumente avec les bons points pour chaque personnage"
+      },
+      
+      "characters": [
+        {
+          "id": "professeur",
+          "name": "M. Dubois",
+          "role": "Professeur de mathématiques",
+          "avatar": "👨‍🏫",
+          "personality": "Sceptique mais ouvert au changement",
+          "concerns": ["facilité d'usage", "compatibilité", "formation"]
+        },
+        {
+          "id": "eleve",
+          "name": "Sarah",
+          "role": "Élève gamer",
+          "avatar": "👧",
+          "personality": "Jeune, tech-savvy, inquiète pour les jeux",
+          "concerns": ["performance", "jeux vidéo", "customisation"]
+        },
+        {
+          "id": "intendant",
+          "name": "Mme Martin",
+          "role": "Intendante",
+          "avatar": "👩‍💼",
+          "personality": "Pragmatique, focus budget",
+          "concerns": ["économies", "durabilité", "support technique"]
+        }
+      ],
+      
+      "completion": {
+        "message": "Excellent ! Toute l'équipe est convaincue. Le lycée est prêt pour la transformation NIRD.",
+        "nextLevel": "Place à la transformation finale..."
+      }
+    },
+    
+    {
+      "id": 4,
+      "name": "Libérer le lycée",
+      "slug": "liberer",
+      "icon": "🏆",
+      "color": "#95E1D3",
+      "duration": "10-15 min",
+      
+      "intro": {
+        "title": "Mission finale : Transformation NIRD",
+        "description": "Transforme le lycée en Village Numérique Résistant ! Fais les bons choix pour maximiser l'impact.",
+        "objective": "Optimise budget, écologie, sécurité et autonomie"
+      },
+      
+      "choices": {
+        "pcReconditioned": {
+          "label": "Nombre de PC à reconditionner",
+          "min": 0,
+          "max": 50,
+          "unit": "ordinateurs",
+          "impact": {
+            "budget": 500,
+            "co2": 240,
+            "autonomy": 2
+          }
+        },
+        
+        "softwaresInstalled": {
+          "label": "Logiciels libres à installer",
+          "options": [
+            {
+              "id": "libreoffice",
+              "name": "LibreOffice",
+              "savings": 120,
+              "popularity": 95
+            },
+            {
+              "id": "firefox",
+              "name": "Firefox",
+              "savings": 0,
+              "popularity": 85
+            },
+            {
+              "id": "thunderbird",
+              "name": "Thunderbird",
+              "savings": 70,
+              "popularity": 70
+            },
+            {
+              "id": "gimp",
+              "name": "GIMP",
+              "savings": 240,
+              "popularity": 60
+            },
+            {
+              "id": "vlc",
+              "name": "VLC",
+              "savings": 0,
+              "popularity": 90
+            }
+          ]
+        },
+        
+        "trainingsLaunched": {
+          "label": "Formations à organiser",
+          "options": [
+            {
+              "id": "linux-basics",
+              "name": "Bases de Linux",
+              "duration": "2h",
+              "impact": "autonomy"
+            },
+            {
+              "id": "libreoffice-training",
+              "name": "Maîtriser LibreOffice",
+              "duration": "3h",
+              "impact": "autonomy"
+            },
+            {
+              "id": "digital-sobriety",
+              "name": "Sobriété numérique",
+              "duration": "1h",
+              "impact": "co2"
+            }
+          ]
+        }
+      },
+      
+      "metrics": {
+        "budget": {
+          "label": "Économies annuelles",
+          "unit": "€",
+          "icon": "💰",
+          "goal": 25000
+        },
+        "co2": {
+          "label": "CO2 évité",
+          "unit": "kg",
+          "icon": "🌱",
+          "goal": 12000
+        },
+        "security": {
+          "label": "Niveau de sécurité",
+          "unit": "%",
+          "icon": "🔒",
+          "goal": 90
+        },
+        "autonomy": {
+          "label": "Autonomie numérique",
+          "unit": "%",
+          "icon": "🎯",
+          "goal": 80
+        }
+      },
+      
+      "completion": {
+        "message": "Mission accomplie ! Le lycée est maintenant un Village Numérique Résistant.",
+        "celebration": "🎉 Le lycée a rejoint le mouvement NIRD ! 🎉",
+        "nextStep": "Télécharge ton plan d'action personnalisé"
+      }
+    }
+  ]
+}

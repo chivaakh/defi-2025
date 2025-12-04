@@ -1,0 +1,174 @@
+{
+  "game": {
+    "title": "Agent NIRD",
+    "subtitle": "Libère ton lycée de l'empire numérique",
+    "version": "1.0.0"
+  },
+  
+  "bigTech": {
+    "companies": [
+      {
+        "id": "windows",
+        "name": "Windows",
+        "color": "#0078D4",
+        "problems": [
+          "Licences coûteuses",
+          "Obsolescence programmée",
+          "Dépendance au système"
+        ]
+      },
+      {
+        "id": "google",
+        "name": "Google",
+        "color": "#4285F4",
+        "problems": [
+          "Données stockées hors UE",
+          "Publicité ciblée",
+          "Écosystème fermé"
+        ]
+      },
+      {
+        "id": "apple",
+        "name": "Apple",
+        "color": "#000000",
+        "problems": [
+          "Prix élevés",
+          "Réparation impossible",
+          "Incompatibilité voulue"
+        ]
+      },
+      {
+        "id": "microsoft",
+        "name": "Microsoft",
+        "color": "#F25022",
+        "problems": [
+          "Abonnements indispensables",
+          "Mises à jour forcées",
+          "Télémétrie invasive"
+        ]
+      }
+    ]
+  },
+  
+  "nird": {
+    "pillars": [
+      {
+        "id": "inclusif",
+        "name": "Numérique Inclusif",
+        "icon": "♿",
+        "description": "Accessible à tous, sans exclusion technique ou financière",
+        "examples": [
+          "Interface simple",
+          "Documentation en français",
+          "Matériel ancien supporté"
+        ]
+      },
+      {
+        "id": "responsable",
+        "name": "Responsable",
+        "icon": "🔒",
+        "description": "Respectueux des données et de la vie privée",
+        "examples": [
+          "Pas de télémétrie",
+          "Données en France",
+          "Transparence totale"
+        ]
+      },
+      {
+        "id": "durable",
+        "name": "Durable",
+        "icon": "🌱",
+        "description": "Écologique et pérenne dans le temps",
+        "examples": [
+          "Réutilisation du matériel",
+          "Faible consommation",
+          "Maintenance longue durée"
+        ]
+      }
+    ]
+  },
+  
+  "solutions": {
+    "os": [
+      {
+        "id": "ubuntu",
+        "name": "Ubuntu",
+        "category": "Système d'exploitation",
+        "description": "Linux facile pour débutants",
+        "icon": "🐧"
+      },
+      {
+        "id": "linux-mint",
+        "name": "Linux Mint",
+        "category": "Système d'exploitation",
+        "description": "Interface familière type Windows",
+        "icon": "🌿"
+      }
+    ],
+    
+    "software": [
+      {
+        "id": "libreoffice",
+        "name": "LibreOffice",
+        "category": "Bureautique",
+        "replaces": "Microsoft Office",
+        "icon": "📄",
+        "savings": "120€/an"
+      },
+      {
+        "id": "firefox",
+        "name": "Firefox",
+        "category": "Navigateur",
+        "replaces": "Chrome",
+        "icon": "🦊",
+        "savings": "0€ (mais respecte la vie privée)"
+      },
+      {
+        "id": "thunderbird",
+        "name": "Thunderbird",
+        "category": "Email",
+        "replaces": "Outlook",
+        "icon": "📧",
+        "savings": "70€/an"
+      },
+      {
+        "id": "gimp",
+        "name": "GIMP",
+        "category": "Retouche photo",
+        "replaces": "Photoshop",
+        "icon": "🎨",
+        "savings": "240€/an"
+      },
+      {
+        "id": "vlc",
+        "name": "VLC",
+        "category": "Lecteur média",
+        "replaces": "Windows Media Player",
+        "icon": "🎬",
+        "savings": "0€"
+      }
+    ]
+  },
+  
+  "stats": {
+    "costsPerYear": {
+      "windows": 140,
+      "office": 120,
+      "adobe": 240,
+      "total": 500
+    },
+    
+    "co2Savings": {
+      "perPcReconditioned": 240,
+      "unit": "kg CO2"
+    },
+    
+    "lyceeExample": {
+      "name": "Lycée Carnot",
+      "location": "Bruay-la-Buissière",
+      "pcs": 150,
+      "savingsPerYear": 75000,
+      "co2Reduced": 36000
+    }
+  }
+}

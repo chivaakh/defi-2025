@@ -1,0 +1,162 @@
+{
+  "simulator": {
+    "defaultValues": {
+      "pcReconditioned": 20,
+      "softwaresInstalled": [],
+      "trainingsLaunched": []
+    },
+    
+    "calculations": {
+      "perPC": {
+        "budgetSaved": 500,
+        "co2Avoided": 240,
+        "securityBonus": 1,
+        "autonomyBonus": 2
+      },
+      
+      "perSoftware": {
+        "libreoffice": {
+          "budgetSaved": 120,
+          "securityBonus": 5,
+          "autonomyBonus": 10
+        },
+        "firefox": {
+          "budgetSaved": 0,
+          "securityBonus": 10,
+          "autonomyBonus": 5
+        },
+        "thunderbird": {
+          "budgetSaved": 70,
+          "securityBonus": 5,
+          "autonomyBonus": 5
+        },
+        "gimp": {
+          "budgetSaved": 240,
+          "securityBonus": 3,
+          "autonomyBonus": 7
+        },
+        "vlc": {
+          "budgetSaved": 0,
+          "securityBonus": 2,
+          "autonomyBonus": 3
+        },
+        "inkscape": {
+          "budgetSaved": 180,
+          "securityBonus": 2,
+          "autonomyBonus": 5
+        },
+        "audacity": {
+          "budgetSaved": 0,
+          "securityBonus": 2,
+          "autonomyBonus": 4
+        }
+      },
+      
+      "perTraining": {
+        "linux-basics": {
+          "cost": 200,
+          "autonomyBonus": 15,
+          "securityBonus": 5
+        },
+        "libreoffice-training": {
+          "cost": 300,
+          "autonomyBonus": 10,
+          "securityBonus": 0
+        },
+        "digital-sobriety": {
+          "cost": 150,
+          "autonomyBonus": 5,
+          "co2Bonus": 500
+        },
+        "cybersecurity": {
+          "cost": 400,
+          "autonomyBonus": 5,
+          "securityBonus": 20
+        }
+      }
+    },
+    
+    "thresholds": {
+      "excellent": {
+        "budget": 25000,
+        "co2": 12000,
+        "security": 90,
+        "autonomy": 80
+      },
+      "good": {
+        "budget": 15000,
+        "co2": 8000,
+        "security": 70,
+        "autonomy": 60
+      },
+      "average": {
+        "budget": 10000,
+        "co2": 5000,
+        "security": 50,
+        "autonomy": 40
+      }
+    },
+    
+    "visualTransformation": {
+      "stages": [
+        {
+          "progress": 0,
+          "description": "Lycée sous emprise Big Tech",
+          "color": "#666666",
+          "atmosphere": "dark"
+        },
+        {
+          "progress": 25,
+          "description": "Premiers pas vers la liberté",
+          "color": "#888888",
+          "atmosphere": "dawn"
+        },
+        {
+          "progress": 50,
+          "description": "Transformation en cours",
+          "color": "#4ECDC4",
+          "atmosphere": "day"
+        },
+        {
+          "progress": 75,
+          "description": "Presque libéré !",
+          "color": "#95E1D3",
+          "atmosphere": "bright"
+        },
+        {
+          "progress": 100,
+          "description": "Village Numérique Résistant !",
+          "color": "#7ED321",
+          "atmosphere": "celebration"
+        }
+      ]
+    },
+    
+    "messages": {
+      "lowImpact": "Tu peux faire mieux ! Reconditionne plus de PC et installe plus de logiciels libres.",
+      "mediumImpact": "Bon début ! Continue d'optimiser tes choix pour maximiser l'impact.",
+      "highImpact": "Excellent travail ! Le lycée est en bonne voie vers l'autonomie numérique.",
+      "perfectImpact": "Incroyable ! Tu as créé un modèle de Village Numérique Résistant !"
+    },
+    
+    "comparisons": {
+      "lyceeCarnot": {
+        "name": "Lycée Carnot (référence NIRD)",
+        "pcs": 150,
+        "budget": 75000,
+        "co2": 36000,
+        "security": 95,
+        "autonomy": 85
+      },
+      
+      "averageLycee": {
+        "name": "Lycée français moyen",
+        "pcs": 100,
+        "budget": 0,
+        "co2": 0,
+        "security": 40,
+        "autonomy": 20
+      }
+    }
+  }
+}
