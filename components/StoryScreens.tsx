@@ -23,8 +23,6 @@ export const IntroScreen: React.FC<IntroProps> = ({ onStart }) => {
         <p className="text-[10px] text-cyan-600/80 uppercase tracking-widest mb-2 pl-2 text-left">Support Tactique</p>
         <a 
           href="https://patrick-lmoubeydel.netlify.app/" 
-          target="_blank" 
-          rel="noopener noreferrer"
           className="group flex items-center gap-3 bg-slate-900/90 hover:bg-slate-800 border border-cyan-900/50 hover:border-nird-neonGreen p-1.5 pr-5 rounded-full transition-all duration-300 shadow-lg hover:shadow-[0_0_15px_rgba(0,255,159,0.2)] cursor-pointer backdrop-blur-md"
         >
           <div className="relative">
