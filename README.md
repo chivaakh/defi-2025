@@ -28,7 +28,7 @@
 
 We face a massive bug in the system. **Windows 10 support is ending**, and schools/institutions are about to throw away perfectly good hardware. This linear cycle of consumption is expensive, wasteful, and scientifically unsustainable.
 
-The **"NIRD"** (Non-Integrated Resource Drain) must be stopped.
+The **"NIRD"** (numérique inclusif, responsable et durable) must be stopped.
 
 ---
 
